@@ -1,0 +1,38 @@
+justify-content:
+
+Role: This property defines how the browser distributes space between and around items along the main axis (horizontal axis by default) of the flex container.
+Values:
+flex-start: Items are packed at the start of the container.
+flex-end: Items are packed at the end of the container.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with space around them.
+space-evenly: Items are evenly distributed with equal space around them.
+align-items:
+
+Role: This property defines how the browser aligns items along the cross axis (vertical axis by default) of the flex container.
+Values:
+flex-start: Items are aligned at the start of the container.
+flex-end: Items are aligned at the end of the container.
+center: Items are centered along the cross axis.
+baseline: Items are aligned based on their baseline.
+stretch: Items are stretched to fill the container.
+flex-direction:
+
+Role: This property establishes the main axis of the flex container and the direction in which the flex items are placed.
+Values:
+row: Main axis is horizontal, and items are placed in a row.
+row-reverse: Similar to row, but in the opposite order.
+column: Main axis is vertical, and items are placed in a column.
+column-reverse: Similar to column, but in the opposite order.
+gap:
+
+Role: This property sets the gap between flex items within a flex container, effectively controlling the spacing between the items along both the main and cross axes.
+Value: A length value, such as 10px or 2rem, or the values normal or unset.
+flex-wrap:
+
+Role: This property determines whether the flex container should wrap its items onto multiple lines if they don't fit in a single line.
+Values:
+nowrap: All items are forced onto a single line.
+wrap: Items wrap onto additional lines if needed.
+wrap-reverse: Items wrap onto additional lines, but the order is reversed.
